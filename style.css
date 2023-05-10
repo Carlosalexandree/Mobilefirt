@@ -1,0 +1,111 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #EFF1FF;
+  text-align: center;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+  background-color: #8E9AAF;
+  height: 279px;
+}
+
+.logo img {
+  margin-top: 32px;
+}
+
+.title {
+  height: 49px;
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CBC0D3;
+  
+}
+
+.title p {
+
+  font-family:'Staatliches', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 34px;
+  color: #FFFFFF;
+  
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .wrapper {
+  width: 400px;
+}
+
+.wrapper p {
+  font-family: 'Palanquin';
+  font-style: normal;
+  color: #23053A;
+  margin-top: 16px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.wrapper .products{
+  margin-top: 60px;
+  position: relative;
+  
+}
+
+.img-container {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  margin: 0 auto;
+
+  
+}
+
+.overlay {
+  z-index: 2;
+  display: flex;
+  justify-content: end;
+}
+
+.tag {
+  font-family:'Staatliches' ;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  border-radius: 20px;
+  background-color:#FEEAFA;
+  letter-spacing: 1px;
+  color: #4A4E69;
+
+}
+
+
+.img-container{
+  transition: all 0.5s;
+  margin: 32px;
+  
+
+}
+
+.img-container:hover {
+  scale: 1.05;
+  
+}
+
